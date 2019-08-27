@@ -56,6 +56,8 @@ nmap <CR> o<Esc>
 
 "Respect snake_case, camelCase
 map <silent> w ,w
+map <silent> b ,b
+map <silent> e ,e
 
 "Color keywords in snake_case
 "set iskeyword-=_
