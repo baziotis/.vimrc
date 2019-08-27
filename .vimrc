@@ -54,8 +54,8 @@ set splitbelow
 "Enter a new line without going to insert mode by pressing enter
 nmap <CR> o<Esc>
 
-"Respect snake_case
-set iskeyword-=_
-
-"Respect camelCase
+"Respect snake_case, camelCase
 map <silent> w ,w
+
+"Color keywords in snake_case
+"set iskeyword-=_
